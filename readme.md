@@ -1,5 +1,5 @@
-# Pandora     
-<img src="https://github.com/neura8/neura8.github.io/blob/master/images/logoblack.png?raw=true">
+# Pandora     <img src="https://github.com/neura8/neura8.github.io/blob/master/images/logoblack.png?raw=true">
+
 
 Pandora is a brain-machine device, with a Opensource Software and our Hardware, taking brian waves BETA to binary to makes patrons
 
