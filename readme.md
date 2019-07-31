@@ -2,7 +2,13 @@
 
 Pandora is a brain-machine device, with a Opensource Software and our Hardware, taking brian waves BETA to binary to makes patrons
 
+<img src="https://neura8.github.io/images/1photo.png">
+
+## Brain waves 
+
 <img src="https://ars.els-cdn.com/content/image/3-s2.0-B9780128044902000026-f02-01-9780128044902.jpg">
+
+We centrer out technology in BETA Waves only so the people can create patrons like <a href="https://en.wikipedia.org/wiki/Morse_code"> morse </a>
 
 <dl>
   <dt>Diferents brain waves</dt>
