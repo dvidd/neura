@@ -1,4 +1,5 @@
-# Pandora
+# Pandora     
+<img src="neura8.github.io/images/logo-black.png">
 
 Pandora is a brain-machine device, with a Opensource Software and our Hardware, taking brian waves BETA to binary to makes patrons
 
