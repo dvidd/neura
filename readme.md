@@ -22,7 +22,7 @@ Pandora is a brain-machine device, with a Opensource Software and our Hardware, 
 
 ### TODO
 
-*Check updates
+* Check updates
 * Download update
 * DB for patrons in device
 * Patrons detections
