@@ -18,7 +18,7 @@ Pandora is a brain-machine device, with a Opensource Software and our Hardware, 
 | ------------- | ------------- |
 | Conect to device  | Get calls |
 | Controls of audio in device  | Controls of pause and continue  |
-| Volume control | | Chromecats control  |
+| Volume control | Chromecats control  |
 
 ### TODO
 
