@@ -20,4 +20,10 @@ mc = cast.media_controller
 mc.block_until_active()
 print(mc.status)
 
-mc.play()
+
+def play():
+	mc.play()
+
+def pause():
+	mc.pause()
+
