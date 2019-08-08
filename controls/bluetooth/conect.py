@@ -1,22 +1,14 @@
-from bluetooth import *
-from PyOBEX.client import Client
-import sys
+#!/usr/bin/python
+import socket
 
-addr = sys.argv[1]
-print("Searching for OBEX service on %s" % addr)
+TCP_IP = '192.168.1.39'
+TCP_PORT = 1080
+BUFFER_SIZE = 1024
 
-service_matches = find_service(name=b'OBEX Object Push\x00', address = addr )
-if len(service_matches) == 0:
-    print("Couldn't find the service.")
-    sys.exit(0)
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect((TCP_IP, TCP_PORT))
+s.send("touch down 30 60\ntouch up 30 60")
+data = s.recv(BUFFER_SIZE)
+s.close()
 
-first_match = service_matches[0]
-port = first_match["port"]
-name = first_match["name"]
-host = first_match["host"]
-
-print("Connecting to \"%s\" on %s" % (name, host))
-client = Client(host, port)
-client.connect()
-client.put("test.txt", "Hello world\n")
-client.disconnect()
+print ("Received: ", data)

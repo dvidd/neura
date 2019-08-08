@@ -11,3 +11,4 @@ for addr, name in nearby_devices:
 
 
 
+s

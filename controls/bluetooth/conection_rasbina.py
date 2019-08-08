@@ -6,6 +6,8 @@ led_pin = "P8_7"
 # You can hardcode the desired device ID here as a string to skip the discovery stage
 addr = None
 
+
+
 print("Welcome to the Bluetooth Detection Demo! \nMake sure your desired Bluetooth-capable device is turned on and discoverable.")
 
 if addr == None:
