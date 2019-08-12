@@ -27,14 +27,10 @@ We centrer out technology in BETA Waves only so the people can create patrons li
 | Controls of audio in device  | Controls of pause and continue  | Next / before | 
 | Chromecats control | Volume control  | IOT Plug
 
-### TODO
 
-* Check updates
-* Download update
-* DB for patrons in device
-* Patrons detections
-* Volume control
 
 ### Licence 
 
 <img src="http://seawisphunter.com/minibuffer/api/MIT-License-transparent.png">
+
+MIT Licence with exceptions - Neura8 2019
