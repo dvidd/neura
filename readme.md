@@ -16,8 +16,23 @@ We centrer out technology in BETA Waves only so the people can create patrons li
 
 </dl>
 
+Directory structure
+------
+    .
+    ├── assets              # Utility for UI and desing 
+    ├── docs                # Docs for the pandora
+    ├── installer/updater   # Manages auto-updates of pandora
+    ├── patrons             # Libary of patrons and examples
+    ├── server              # Server for the pandora and W3RY
+    └── controls            # Controls of the pandora to the iot
+        ├── bluetooth       # Controls of server to conection
+        ├── chromecast      # Allows communication with the chromecast
+        ├── testing         # Testing stuff and playgrounds
+        ├── controls.py     # Main file of the hardware of the pandora
+     
 
 
+Database conect to the pandoras with each info
 
 ## Patrons Pandora
 
