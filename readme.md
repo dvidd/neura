@@ -21,11 +21,11 @@ We centrer out technology in BETA Waves only so the people can create patrons li
 
 ## Patrons Pandora
 
-| Patrons made  | Developing    |
-| ------------- | ------------- |
-| Conect to device  | Get calls |
-| Controls of audio in device  | Controls of pause and continue  |
-| Volume control | Chromecats control  |
+| Patrons made  | Developing    | Future  |  2.0 |
+| ------------- | ------------- |---------| -----|
+| Conect to device  | Get calls | Alpha waves | Precise patrons |
+| Controls of audio in device  | Controls of pause and continue  | Next / before | 
+| Chromecats control | Volume control  | IOT Plug
 
 ### TODO
 
