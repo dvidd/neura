@@ -1,0 +1,12 @@
+
+
+Python 3.7+ 
+
+Pybluez 3
+
+pychromecast 3.2.1 
+
+
+
+
+
