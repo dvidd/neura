@@ -9,6 +9,3 @@ for addr, name in nearby_devices:
     print("  %s -  %s" % (addr, name))
 
 
-
-
-s

@@ -1,14 +1,30 @@
 #!/usr/bin/python
 import socket
+import bluetooth, subprocess
 
-TCP_IP = '192.168.1.39'
-TCP_PORT = 1080
-BUFFER_SIZE = 1024
+nearby_devices = bluetooth.discover_devices(duration=4,lookup_names=True,
+                                                      flush_cache=True, lookup_class=False)
 
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect((TCP_IP, TCP_PORT))
-s.send("touch down 30 60\ntouch up 30 60")
-data = s.recv(BUFFER_SIZE)
-s.close()
 
-print ("Received: ", data)
+TCP_IP = '44:44:1B:04:13:7D'
+TCP_PORT = 13854
+BUFFER_SIZE = 2048
+
+name = 'Sichiray'      # Device name
+addr = '44:44:1B:04:13:7D'      # Device Address
+port = 13854         # RFCOMM port
+passkey = "0000" # passkey of the device you want to connect
+
+# kill any "bluetooth-agent" process that is already running
+subprocess.call("kill -9 `pidof bluetooth-agent`",shell=True)
+
+# Start a new "bluetooth-agent" process where XXXX is the passkey
+status = subprocess.call("bluetooth-agent " + passkey + " &",shell=True)
+
+# Now, connect in the same way as always with PyBlueZ
+try:
+    s = bluetooth.BluetoothSocket(bluetooth.RFCOMM)
+    s.connect((addr,port))
+except bluetooth.btcommon.BluetoothError as err:
+    # Error handler
+    pass

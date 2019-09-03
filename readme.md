@@ -20,8 +20,9 @@ Directory structure
 ------
     .
     ├── assets              # Utility for UI and desing 
+    ├── desing              # 3d models for the pandora
     ├── docs                # Docs for the pandora
-    ├── installer/updater   # Manages auto-updates of pandora
+    ├── headset             # Scripts for parser the data from the headset
     ├── patrons             # Libary of patrons and examples
     ├── server              # Server for the pandora and W3RY
     └── controls            # Controls of the pandora to the iot
