@@ -35,6 +35,13 @@ Directory structure
 
 Database conect to the pandoras with each info
 
+## Hardware of pandora
+
+<img src="https://github.com/neura8/pandora/blob/master/assets/pandora.png?raw=true">
+
+
+
+
 ## Patrons Pandora
 
 | Patrons made  | Developing    | Future  |  2.0 |
