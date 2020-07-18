@@ -1,12 +1,15 @@
-# Pandora     <img src="https://github.com/neura8/neura8.github.io/blob/master/images/logoblack.png?raw=true">
+# Pandora     
 
+This is a projec made in summer of 2019, I put around 20 arounds into it while playing with a EEG that i made with some sensor that i bought, the propouse of the projects was making a open source devices that take the brain waves and picks in a graf and detect patrons.
+If you want to contribute feel free to do it. :) 
 
-Pandora is a brain-machine device, with a Opensource Software and our Hardware, taking brian waves BETA to binary to makes patrons to control the real world 
+Example uses :
+  - If user with interface concentrate into something twice in a period of 2 seconds, a function is activate like : pause music
 
 <img src="https://neura8.github.io/images/1photo.png">
 
 ## Brain waves 
-We centrer out technology in BETA Waves only so the people can create patrons like <a href="https://en.wikipedia.org/wiki/Morse_code"> morse </a>
+I try to center in brain waves BETA and ALPHA <a href="https://en.wikipedia.org/wiki/Morse_code"> morse </a>
 
 <img src="https://www.paranormal-explore.com/images/brain-waves.png">
 
@@ -40,6 +43,10 @@ Database conect to the pandoras with each info
 <img src="https://github.com/neura8/pandora/blob/master/assets/pandora.png?raw=true">
 
 
+# TODO
+
+Make a model that get some kind of patrons from the brain waves, add an interface to add new reactive patrons, selct function to the patrons and make more functions.
+
 
 
 ## Patrons Pandora
@@ -56,4 +63,4 @@ Database conect to the pandoras with each info
 
 <img src="http://seawisphunter.com/minibuffer/api/MIT-License-transparent.png">
 
-MIT Licence with exceptions - Neura8 2019
+MIT Licence - Neura8 2019
