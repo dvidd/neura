@@ -6,8 +6,8 @@ If you want to contribute feel free to do it. :)
 Example uses :
   - If user with interface concentrate into something twice in a period of 2 seconds, a function is activate like : pause music
 
-<img src="https://neura8.github.io/images/1photo.png">
-
+<img src="https://firebasestorage.googleapis.com/v0/b/shopylite.appspot.com/o/images%2F1595035355006_Artboard%20(1).png?alt=media&token=e9d78c64-44ce-49ff-9c7e-ba5a333d2481">
+* The headset ( Was desing and made all from scratch by me 
 ## Brain waves 
 I try to center in brain waves BETA and ALPHA <a href="https://en.wikipedia.org/wiki/Morse_code"> morse </a>
 
@@ -38,7 +38,7 @@ Directory structure
 
 Database conect to the pandoras with each info
 
-## Hardware of pandora
+### Hardware of pandora in use 
 
 <img src="https://github.com/neura8/pandora/blob/master/assets/pandora.png?raw=true">
 
