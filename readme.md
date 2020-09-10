@@ -1,4 +1,4 @@
-# Pandora     
+# Neura     
 
 This is a projec made in summer of 2019, I put around 20 arounds into it while playing with a EEG that i made with some sensor that i bought, the propouse of the projects was making a open source devices that take the brain waves and picks in a graf and detect patrons.
 If you want to contribute feel free to do it. :) 
